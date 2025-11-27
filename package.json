@@ -1,0 +1,21 @@
+{
+	"name": "ai-alt-text",
+	"version": "1.0.0",
+	"description": "AI Alt Text - Generate alt text for images using AI",
+	"author": "Per Soderlind",
+	"license": "GPL-2.0-or-later",
+	"main": "build/image-toolbar/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update",
+		"test": "vitest run",
+		"test:watch": "vitest"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^16.0.0",
+		"@wordpress/scripts": "^30.0.0",
+		"jsdom": "^25.0.0",
+		"vitest": "^2.0.0"
+	}
+}
