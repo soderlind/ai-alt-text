@@ -1,12 +1,12 @@
 # AI Alt Text
 
-Automatically generate alt text for images using AI. Supports multiple AI providers including OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok.
+Generate alt text for images using AI. Supports multiple AI providers including OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok.
 
 <img src="assets/bug.png" alt="AI Alt Text Plugin Screenshot" />
 
 ## Features
 
-- **Auto-generate on Upload**: Automatically generates alt text when images are uploaded to the media library
+
 - **Bulk Update**: Update alt text for multiple images at once from the media library
 - **Block Editor Integration**: Generate alt text directly from the image block in the editor
 - **Multiple AI Providers**: Choose from OpenAI (GPT-4o), Anthropic Claude, Google Gemini, Azure OpenAI, Ollama (local), or Grok
@@ -66,9 +66,6 @@ AI_ALT_TEXT_MODEL=gpt-4o
 
 ## Usage
 
-### Automatic Generation on Upload
-
-When enabled in settings, alt text will be automatically generated for every image uploaded to the media library.
 
 ### Bulk Update
 
@@ -185,4 +182,4 @@ Developed by [Per Soderlind](https://soderlind.no).
 ## Support
 
 - [GitHub Issues](https://github.com/soderlind/ai-alt-text/issues)
-- [WordPress Support Forum](https://wordpress.org/support/plugin/ai-alt-text/)
+

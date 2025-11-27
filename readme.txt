@@ -3,7 +3,7 @@ Contributors: persoderlind
 Tags: alt text, accessibility, ai, images, seo
 Requires at least: 6.8
 Tested up to: 6.8
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +16,6 @@ AI Alt Text automatically generates descriptive alt text for your images using a
 
 = Features =
 
-* **Auto-generate on Upload** - Automatically generates alt text when images are uploaded to the media library
 * **Bulk Update** - Update alt text for multiple images at once from the media library
 * **Block Editor Integration** - Generate alt text directly from the image block in the editor
 * **Multiple AI Providers** - Choose from OpenAI (GPT-4o), Anthropic Claude, Google Gemini, Azure OpenAI, Ollama (local), or Grok
@@ -44,9 +43,10 @@ Alt text (alternative text) describes images for:
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/ai-alt-text` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Go to Settings → AI Alt Text to configure your AI provider and API key.
+1. Download the plugin from [GitHub Releases](https://github.com/soderlind/ai-alt-text/releases)
+2. Upload to your `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Go to **Settings → AI Alt Text** to configure your AI provider
 
 = Configuration =
 
@@ -96,13 +96,10 @@ Yes, image URLs are sent to your chosen AI provider for analysis. If you're conc
 
 Yes, the plugin can analyze images from external URLs, not just images in your media library.
 
-== Screenshots ==
-
-1. Settings page - Configure your AI provider and API key
-2. Media Library bulk action - Generate alt text for multiple images
-3. Block editor integration - Generate alt text from the image block sidebar
-
 == Changelog ==
+
+= 1.0.3 =
+* Housekeeping
 
 = 1.0.2 =
 * Added translation support with POT file in languages directory
@@ -125,6 +122,9 @@ Yes, the plugin can analyze images from external URLs, not just images in your m
 * Flexible configuration via constants, environment variables, or admin settings
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Housekeeping.
 
 = 1.0.2 =
 Added translation support - plugin is now fully localization-ready.
