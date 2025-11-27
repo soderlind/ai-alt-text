@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-11-27
+
+### Added
+
+- "Generate with AI" button on single media edit page (left-aligned below alt text field)
+- "Generate with AI" button in media library grid view modal (right-aligned below alt text field)
+
+### Changed
+
+- Improved button placement using WordPress native `copy-to-clipboard-container` styling for grid modal
+
 ## [1.0.0] - 2025-11-27
 
 ### Added
@@ -52,4 +63,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - All API keys are stored securely and never exposed to the frontend
 - REST API endpoints require authentication and proper capabilities
 
+[1.0.1]: https://github.com/soderlind/ai-alt-text/releases/tag/1.0.1
 [1.0.0]: https://github.com/soderlind/ai-alt-text/releases/tag/1.0.0
