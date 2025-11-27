@@ -2,9 +2,6 @@
 
 Automatically generate alt text for images using AI. Supports multiple AI providers including OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok.
 
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/ai-alt-text)](https://wordpress.org/plugins/ai-alt-text/)
-[![WordPress Plugin Required PHP Version](https://img.shields.io/wordpress/plugin/required-php/ai-alt-text)](https://wordpress.org/plugins/ai-alt-text/)
-[![License](https://img.shields.io/github/license/soderlind/ai-alt-text)](https://github.com/soderlind/ai-alt-text/blob/main/LICENSE)
 
 ## Features
 
