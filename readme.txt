@@ -3,7 +3,7 @@ Contributors: persoderlind
 Tags: alt text, accessibility, ai, images, seo
 Requires at least: 6.8
 Tested up to: 6.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -104,6 +104,11 @@ Yes, the plugin can analyze images from external URLs, not just images in your m
 
 == Changelog ==
 
+= 1.0.1 =
+* Added "Generate with AI" button to single media edit page (left-aligned below alt text field)
+* Added "Generate with AI" button to media library grid view modal (right-aligned below alt text field)
+* Improved button placement using WordPress native styling
+
 = 1.0.0 =
 * Initial release
 * Support for OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, Ollama, and Grok
@@ -114,6 +119,9 @@ Yes, the plugin can analyze images from external URLs, not just images in your m
 * Flexible configuration via constants, environment variables, or admin settings
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Added generate buttons to single media edit page and media library grid view modal.
 
 = 1.0.0 =
 Initial release of AI Alt Text plugin.
