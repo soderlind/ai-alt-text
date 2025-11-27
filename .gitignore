@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts (uncomment if you want to commit build files)
+# build/
+
+# Cache
+.phpunit.cache/
+.phpunit.result.cache
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Package files (for distribution)
+*.zip
