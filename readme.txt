@@ -3,7 +3,7 @@ Contributors: persoderlind
 Tags: alt text, accessibility, ai, images, seo
 Requires at least: 6.8
 Tested up to: 6.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -104,6 +104,12 @@ Yes, the plugin can analyze images from external URLs, not just images in your m
 
 == Changelog ==
 
+= 1.0.2 =
+* Added translation support with POT file in languages directory
+* Added translator comments for strings with placeholders
+* Added keywords to composer.json and package.json
+* Updated README with translation instructions
+
 = 1.0.1 =
 * Added "Generate with AI" button to single media edit page (left-aligned below alt text field)
 * Added "Generate with AI" button to media library grid view modal (right-aligned below alt text field)
@@ -119,6 +125,9 @@ Yes, the plugin can analyze images from external URLs, not just images in your m
 * Flexible configuration via constants, environment variables, or admin settings
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Added translation support - plugin is now fully localization-ready.
 
 = 1.0.1 =
 Added generate buttons to single media edit page and media library grid view modal.

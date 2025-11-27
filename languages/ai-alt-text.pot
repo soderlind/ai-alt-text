@@ -1,0 +1,284 @@
+# Copyright (C) 2025 Per Soderlind
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Alt Text 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-alt-text\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-27T22:46:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ai-alt-text\n"
+
+#. Plugin Name of the plugin
+#: ai-alt-text.php
+#: src/php/Admin/SettingsPage.php:46
+#: src/php/Blocks/ImageBlockExtension.php:86
+#: build/image-toolbar/index.js:1
+#: src/block/image-toolbar/index.js:79
+msgid "AI Alt Text"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: ai-alt-text.php
+msgid "https://github.com/soderlind/ai-alt-text"
+msgstr ""
+
+#. Description of the plugin
+#: ai-alt-text.php
+msgid "Automatically generate alt text for images using AI. Supports OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok. Auto-generates on upload, bulk update in media library, and generate from image block."
+msgstr ""
+
+#. Author of the plugin
+#: ai-alt-text.php
+msgid "Per Soderlind"
+msgstr ""
+
+#. Author URI of the plugin
+#: ai-alt-text.php
+msgid "https://soderlind.no"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:45
+msgid "AI Alt Text Settings"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:78
+msgid "General Settings"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:85
+msgid "Auto-generate on Upload"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:93
+msgid "AI Provider Settings"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:100
+msgid "AI Provider"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:108
+msgid "OpenAI Type"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:116
+msgid "API Key"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:124
+msgid "Model / Deployment"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:132
+msgid "Azure OpenAI Endpoint"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:140
+msgid "Azure API Version"
+msgstr ""
+
+#. translators: %s: Error message from AI provider validation
+#: src/php/Admin/SettingsPage.php:215
+#, php-format
+msgid "AI Configuration Warning: %s"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:420
+msgid "Save Settings"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:429
+msgid "Configure general behavior for AI Alt Text generation."
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:440
+msgid "Automatically generate alt text when images are uploaded to the media library"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:452
+msgid "Configure the AI service used for generating image alt text. Vision-capable models are required."
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:533
+msgid "OpenAI (GPT-4o)"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:536
+msgid "Anthropic Claude"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:539
+msgid "Google Gemini"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:542
+msgid "Ollama (Self-Hosted)"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:545
+msgid "Grok (xAI)"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:554
+msgid "Choose an AI provider with vision capabilities for image analysis."
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:565
+msgid "OpenAI"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:568
+msgid "Azure OpenAI"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:577
+msgid "Choose between standard OpenAI API or Azure OpenAI Service"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:591
+msgid "API key from"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:595
+msgid "or"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:609
+msgid "OpenAI: gpt-4o, gpt-4-vision-preview. Claude: claude-3-5-sonnet-20241022. Gemini: gemini-1.5-flash, gemini-1.5-pro. Ollama: llava, bakllava. Grok: grok-2-vision-1212."
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:623
+msgid "Your Azure OpenAI resource endpoint URL"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:636
+msgid "Azure OpenAI API version (e.g., 2024-02-15-preview)"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:710
+msgid "wp-config.php constant"
+msgstr ""
+
+#: src/php/Admin/SettingsPage.php:711
+msgid "environment variable"
+msgstr ""
+
+#. translators: %s: Configuration source (wp-config.php constant or environment variable)
+#: src/php/Admin/SettingsPage.php:716
+#, php-format
+msgid "(Set via %s)"
+msgstr ""
+
+#: src/php/Blocks/ImageBlockExtension.php:81
+#: src/php/Media/BulkAltTextHandler.php:45
+#: src/php/Media/BulkAltTextHandler.php:184
+msgid "Generate AI Alt Text"
+msgstr ""
+
+#: src/php/Blocks/ImageBlockExtension.php:82
+#: src/php/Media/MediaLibraryHandler.php:157
+#: build/image-toolbar/index.js:1
+#: src/block/image-toolbar/index.js:89
+msgid "Generating..."
+msgstr ""
+
+#: src/php/Blocks/ImageBlockExtension.php:83
+msgid "Alt text generated!"
+msgstr ""
+
+#: src/php/Blocks/ImageBlockExtension.php:84
+msgid "Failed to generate alt text"
+msgstr ""
+
+#: src/php/Blocks/ImageBlockExtension.php:85
+msgid "No image selected"
+msgstr ""
+
+#. translators: %d: number of images
+#: src/php/Media/BulkAltTextHandler.php:114
+#, php-format
+msgid "Generated alt text for %d image."
+msgid_plural "Generated alt text for %d images."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of images
+#: src/php/Media/BulkAltTextHandler.php:127
+#, php-format
+msgid "Failed to generate alt text for %d image."
+msgid_plural "Failed to generate alt text for %d images."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of items
+#: src/php/Media/BulkAltTextHandler.php:140
+#, php-format
+msgid "Skipped %d non-image attachment."
+msgid_plural "Skipped %d non-image attachments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/php/Media/MediaLibraryHandler.php:87
+msgid "Permission denied."
+msgstr ""
+
+#: src/php/Media/MediaLibraryHandler.php:94
+msgid "Invalid attachment ID."
+msgstr ""
+
+#: src/php/Media/MediaLibraryHandler.php:156
+msgid "Generate with AI"
+msgstr ""
+
+#: src/php/REST/AltTextController.php:50
+msgid "The attachment ID to generate alt text for."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:56
+msgid "The image URL to generate alt text for."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:62
+msgid "Whether to overwrite existing alt text."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:78
+msgid "The attachment ID."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:98
+msgid "You do not have permission to generate alt text."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:115
+msgid "You do not have permission to view alt text."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:136
+msgid "Either attachment_id or image_url is required."
+msgstr ""
+
+#: src/php/REST/AltTextController.php:179
+msgid "The specified attachment is not an image."
+msgstr ""
+
+#: build/image-toolbar/index.js:1
+#: src/block/image-toolbar/index.js:54
+msgid "Failed to generate"
+msgstr ""
+
+#: build/image-toolbar/index.js:1
+#: src/block/image-toolbar/index.js:60
+msgid "Error"
+msgstr ""
+
+#: build/image-toolbar/index.js:1
+#: src/block/image-toolbar/index.js:92
+msgid "Generate Alt Text with AI"
+msgstr ""
