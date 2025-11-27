@@ -93,6 +93,8 @@ When enabled in settings, alt text will be automatically generated for every ima
 | Ollama | llava | Free, runs locally. Install from [ollama.ai](https://ollama.ai/) |
 | Grok | grok-2-vision-1212 | Requires API key from [xAI](https://x.ai/) |
 
+For detailed configuration instructions, see [AI Provider Documentation](docs/AI-PROVIDERS.md).
+
 ## Hooks & Filters
 
 ### Modify Generated Alt Text

@@ -32,6 +32,8 @@ AI Alt Text automatically generates descriptive alt text for your images using a
 * **Ollama** - LLaVA model (runs locally, free)
 * **Grok** - Grok 2 Vision from xAI
 
+For detailed configuration instructions, see the [AI Provider Documentation](https://github.com/soderlind/ai-alt-text/blob/main/docs/AI-PROVIDERS.md).
+
 = Why Alt Text Matters =
 
 Alt text (alternative text) describes images for:
