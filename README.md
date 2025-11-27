@@ -2,6 +2,7 @@
 
 Automatically generate alt text for images using AI. Supports multiple AI providers including OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok.
 
+<img src="assets/bug.png" alt="AI Alt Text Plugin Screenshot" />
 
 ## Features
 
@@ -123,6 +124,26 @@ add_filter( 'ai_alt_text_should_generate', function( $should_generate, $attachme
     return $should_generate;
 }, 10, 2 );
 ```
+
+## Translations
+
+The plugin is translation-ready. Translation files are located in the `languages/` directory.
+
+### Creating a Translation
+
+1. Copy `languages/ai-alt-text.pot` to `languages/ai-alt-text-{locale}.po`
+   - Example: `ai-alt-text-nb_NO.po` for Norwegian Bokmål
+   - Example: `ai-alt-text-de_DE.po` for German
+2. Translate the strings using [Poedit](https://poedit.net/) or similar tool
+3. Save to generate the `.mo` file
+4. For JavaScript translations, run:
+   ```bash
+   wp i18n make-json languages/
+   ```
+
+### Available Locales
+
+Contributions welcome! Submit your translation via a pull request.
 
 ## Development
 

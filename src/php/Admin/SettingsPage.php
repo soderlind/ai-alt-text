@@ -211,6 +211,7 @@ class SettingsPage {
 			add_settings_error(
 				'ai_alt_text_messages',
 				'ai_validation_error',
+				/* translators: %s: Error message from AI provider validation */
 				sprintf( __( 'AI Configuration Warning: %s', 'ai-alt-text' ), $error ),
 				'error'
 			);
@@ -710,7 +711,10 @@ class SettingsPage {
 			: __( 'environment variable', 'ai-alt-text' );
 		?>
 		<span class="description" style="color: #2271b1; font-weight: 500; margin-left: 8px;">
-			<?php printf( esc_html__( '(Set via %s)', 'ai-alt-text' ), esc_html( $label ) ); ?>
+			<?php
+			/* translators: %s: Configuration source (wp-config.php constant or environment variable) */
+			printf( esc_html__( '(Set via %s)', 'ai-alt-text' ), esc_html( $label ) );
+			?>
 		</span>
 		<?php
 	}

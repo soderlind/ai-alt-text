@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AI Alt Text
  * Description: Automatically generate alt text for images using AI. Supports OpenAI, Claude, Gemini, Ollama, Azure OpenAI, and Grok. Auto-generates on upload, bulk update in media library, and generate from image block.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Per Soderlind
  * Author URI: https://soderlind.no
  * Plugin URI: https://github.com/soderlind/ai-alt-text
@@ -15,7 +15,7 @@
 
 declare(strict_types=1);
 
-define( 'AI_ALT_TEXT_VERSION', '1.0.1' );
+define( 'AI_ALT_TEXT_VERSION', '1.0.2' );
 define( 'AI_ALT_TEXT_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AI_ALT_TEXT_URL', plugin_dir_url( __FILE__ ) );
 
