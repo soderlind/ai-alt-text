@@ -43,10 +43,12 @@ Alt text (alternative text) describes images for:
 
 == Installation ==
 
-1. Download the plugin from [GitHub Releases](https://github.com/soderlind/ai-alt-text/releases)
-2. Upload to your `/wp-content/plugins/` directory
+1. Download [`ai-alt-text.zip`](https://github.com/soderlind/ai-alt-text/releases/latest/download/ai-alt-text.zip)
+2. Upload via  Plugins > Add New > Upload Plugin
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Go to **Settings → AI Alt Text** to configure your AI provider
+
+Plugin [updates are handled automatically](https://github.com/soderlind/wordpress-plugin-github-updater#readme) via GitHub. No need to manually download and install updates.
 
 = Configuration =
 

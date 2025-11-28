@@ -21,10 +21,23 @@ Generate alt text for images using AI. Supports multiple AI providers including 
 
 ## Installation
 
-1. Download the plugin from [GitHub Releases](https://github.com/soderlind/ai-alt-text/releases)
-2. Upload to your `/wp-content/plugins/` directory
-3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Go to **Settings → AI Alt Text** to configure your AI provider
+- **Quick Install**
+
+   - Download [`ai-alt-text.zip`](https://github.com/soderlind/ai-alt-text/releases/latest/download/ai-alt-text.zip)
+   - Upload via  Plugins > Add New > Upload Plugin
+   - Activate the plugin.
+   - Go to **Settings → AI Alt Text** to configure your AI provider
+
+- **Composer Install**
+
+   ```bash
+   composer require soderlind/ai-alt-text
+   ```
+
+- **Updates**
+   * Plugin [updates are handled automatically](https://github.com/soderlind/wordpress-plugin-github-updater#readme) via GitHub. No need to manually download and install updates.
+
+
 
 ## Configuration
 
